@@ -31,7 +31,7 @@ body {
   padding: 0 15px;
   width: 80vw;
   max-width: 1400px;
-  min-width: 380px;
+  min-width: 300px;
 }
 
 .content {
@@ -113,7 +113,7 @@ body {
 
   .header h1 {
     margin: 10px auto;
-    font-size: calc(3rem);
+    font-size: calc(2.7rem);
   }
 
   .content-big {
