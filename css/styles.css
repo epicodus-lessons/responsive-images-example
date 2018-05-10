@@ -96,6 +96,15 @@ body {
 /*portrait*/
 
 @media screen and (max-width: 950px) {
+  .image-container {
+    height: 500px;
+    align-items: flex-end;
+  }
+
+  .image-container img {
+    width: 850px;
+  }
+
   .content-grid {
     display: flex;
     flex-direction: column;
