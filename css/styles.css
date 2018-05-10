@@ -69,6 +69,18 @@ body {
     margin: 0 auto;
   }
 
+  .image-container {
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-container img {
+    width: 998px;
+  }
+
   .content-grid {
     display: flex;
     flex-wrap: wrap;
