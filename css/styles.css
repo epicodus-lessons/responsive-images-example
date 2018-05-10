@@ -38,6 +38,15 @@ body {
   margin-bottom: 30px;
 }
 
+.image-container {
+  height: 600px;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+}
+
 .content-grid {
   display: flex;
   flex-flow: row;
