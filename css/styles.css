@@ -38,11 +38,6 @@ body {
   margin-bottom: 30px;
 }
 
-.content-big {
-  background-color: lightSkyBlue;
-  transition: background-color .6s;
-}
-
 .content-grid {
   display: flex;
   flex-flow: row;
@@ -65,10 +60,6 @@ body {
     margin: 0 auto;
   }
 
-  .content-big {
-    background-color: lightCoral;
-  }
-
   .content-grid {
     display: flex;
     flex-wrap: wrap;
@@ -84,10 +75,6 @@ body {
 /*portrait*/
 
 @media screen and (max-width: 950px) {
-  .content-big {
-    background-color: lavenderBlush;
-  }
-
   .content-grid {
     display: flex;
     flex-direction: column;
@@ -110,10 +97,6 @@ body {
   .header h1 {
     margin: 10px auto;
     font-size: calc(2.7rem);
-  }
-
-  .content-big {
-    background-color: paleVioletRed;
   }
 
   .content-small {
