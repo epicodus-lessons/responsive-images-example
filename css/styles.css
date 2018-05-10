@@ -38,6 +38,10 @@ body {
   margin-bottom: 30px;
 }
 
+.image {
+  flex-shrink: 0;
+}
+
 .image-container {
   height: 600px;
   overflow: hidden;
@@ -78,7 +82,7 @@ body {
   }
 
   .image-container img {
-    width: 998px;
+    width: 952px;
   }
 
   .content-grid {
@@ -98,7 +102,7 @@ body {
 @media screen and (max-width: 950px) {
   .image-container {
     height: 500px;
-    align-items: flex-end;
+    /*align-items: flex-end;*/
   }
 
   .image-container img {
@@ -127,6 +131,15 @@ body {
   .header h1 {
     margin: 10px auto;
     font-size: calc(2.7rem);
+  }
+
+  .image-container {
+    align-items: flex-end;
+    height: 400px;
+  }
+
+  .image-container img {
+    width: 750px;
   }
 
   .content-small {
