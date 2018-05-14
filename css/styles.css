@@ -76,14 +76,6 @@ body {
     margin: 0 auto;
   }
 
-  .image-container {
-    height: 600px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
   .image-container img {
     width: 952px;
   }
@@ -103,13 +95,8 @@ body {
 /*portrait*/
 
 @media screen and (max-width: 950px) {
-  .image-container {
-    height: 500px;
-    /*align-items: flex-end;*/
-  }
-
   .image-container img {
-    width: 850px;
+    width: 100%;
   }
 
   .content-grid {
@@ -137,12 +124,12 @@ body {
   }
 
   .image-container {
-    align-items: flex-end;
     height: 400px;
+    justify-content: center;
   }
 
   .image-container img {
-    width: 750px;
+    width: 100%;
   }
 
   .content-small {
