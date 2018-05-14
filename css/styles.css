@@ -45,6 +45,9 @@ body {
 .image-container {
   height: 600px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .image-container img {
